@@ -4,6 +4,7 @@ function Stock({stock, onStockClick}) {
 
   function handleClick(){
     onStockClick(stock);
+    
   }
   return (
     <div onClick={handleClick}>

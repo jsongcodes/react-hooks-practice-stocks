@@ -35,7 +35,7 @@ function handleFilterChange(e){
       <br />
       <label>
         <strong>Filter:</strong>
-        <select onChange={handleSortChange}>
+        <select onChange={handleFilterChange} value={filterBy}>
           <option value="Tech">Tech</option>
           <option value="Sportswear">Sportswear</option>
           <option value="Finance">Finance</option>
